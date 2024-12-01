@@ -1,0 +1,22 @@
+# Ignore .git directory
+.git
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore uploads and processed videos (optional, if they don't need to be in the image)
+uploads/
+processed_videos/
+
+# Ignore IDE-specific files
+.vscode/
+*.swp
+
+# Ignore Docker ignore files
+.dockerignore
